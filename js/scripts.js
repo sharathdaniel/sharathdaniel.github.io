@@ -147,30 +147,6 @@ $(document).ready(function(){
 		});
 		
 	});
-	
-	$('.field input, .field textarea').jvFloat();
-	
-	//callback handler for form click
-	$("#contact_submit").click(function(){
-		
-		if(!$("#contact_form").valid()){
-			return false;
-		}
-		
-		var postData = $("#contact_form").serialize();
-		$.ajax(
-		{
-			url : "send.php",
-			type: "POST",
-			data : postData,
-			success: function(data)
-           {
-				$("#form_success").css('visibility', 'visible').html(data);
-              
-           }
-		});
-		
-	});
 
 	var d = new Date();
 	var n = d.getFullYear();
