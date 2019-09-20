@@ -1,0 +1,220 @@
+@media screen and (max-width:1024px){
+
+.section_width{
+	width:96%;
+}
+.about_parallax_inner {
+    margin-left: -33%;
+    position: absolute;
+    width: 100%;
+}
+/*.port_parallax_inner {
+    margin-left: -33%;
+    position: absolute;
+    width: 100%;
+}*/
+.port_parallax{
+	font-size:32px;
+}
+
+}
+@media screen and (max-width:876px){
+
+#top_rolling_text{
+	font-size:35px;
+}
+.flex-control-nav{
+	bottom:-23px!important;
+}
+	
+}
+
+
+@media screen and (max-width:768px){
+
+.what_ido_holder {
+    width: 24%;
+}
+#portfolio_list li{
+	width: 49%;
+}
+.port_parallax{
+	font-size:26px;
+}
+
+}
+
+@media screen and (max-width:685px){
+
+#top_rolling_text{
+	font-size:28px;
+}
+.flex-control-nav{
+	bottom:-18px!important;
+}
+#header{
+	height:auto;
+	min-height:60px;
+}
+#nav_toggle,.clear_onlymob{
+	display:block;
+}
+#nav{
+	display:none;
+	float:none;
+	clear:both;
+}
+#nav ul li {
+    float: none;
+}
+#nav ul li a{
+	text-align:center;
+	height:auto;
+	padding:10px 0px;
+	border-bottom:1px solid #FFF;
+}
+#nav ul li:last-child a{
+	border-bottom:none;
+}
+.active_nav a{
+	color:#263238!important;
+}
+.what_ido_holder {
+    width: 34%;
+}
+.what_ido_holder:nth-child(3),.what_ido_holder:nth-child(4){
+	margin-top:30px;
+}
+.form_col_left{
+	float:none;
+	width:100%;
+}
+#thanks_bot {
+    font-size: 27px;
+}
+
+}
+@media screen and (max-width:600px){
+	
+/*inherits from 685px*/
+
+#profile .right-button {
+    height: 43px;
+    position: absolute;
+    right: auto;
+    top: 80px;
+}
+.profile_text{
+	padding-top:60px;
+}
+
+}
+@media screen and (max-width:568px){
+
+#top_rolling_text{
+	font-size:20px;
+}
+.flex-control-nav{
+	bottom:-5px!important;
+}
+.about_parallax{
+	font-size:30px;
+}
+#portfolio_list li {
+    width: 80%;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+}
+@media screen and (max-width:480px){
+	
+/*inherits from 568px*/
+
+.what_ido_holder {
+    width: 38%;
+}
+#thanks_bot {
+    font-size: 22px;
+}
+.port_parallax {
+    font-size: 22px;
+}
+.port_parallax_inner i.fa-quote-left, .port_parallax_inner i.fa-quote-right {
+    font-size: 14px;
+}
+
+
+}
+@media screen and (max-width:384px){
+	
+#profile .bg-cover {
+    height: 180px;
+}
+#profile .profile-info{
+	padding:0;
+	top: 180px;
+}
+#profile .user-name{
+	line-height:26px;
+}
+.lives_prof{
+	margin-left: 10px !important;
+    margin-top: 10px !important;
+}
+.works_prof{
+	margin-left: 10px !important;
+}
+#profile .right-button{
+	left:50%;
+	margin-left: -45px;
+}
+.profile_text{
+	padding-top: 140px;
+	padding-left:10px;
+}
+.profile_text p{
+	line-height:28px;
+}
+.what_ido_holder {
+    width: 51%;
+}
+.what_ido_holder:nth-child(1){
+	margin-bottom:30px;
+}
+#thanks_bot {
+    font-size: 17px;
+}
+#copyright {
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.about_parallax{
+	font-size:24px;
+}
+.about_parallax_inner i.fa-quote-left, .about_parallax_inner i.fa-quote-right {
+    font-size: 14px;
+}
+#portfolio_list li{
+	width:90%;
+}
+	
+}
+@media screen and (max-width:320px){
+	
+/*inherits from 380px*/	
+
+#top_rolling_text{
+	font-size:15px;
+}
+.flex-control-nav{
+	bottom:0px!important;
+}
+	
+}
+@media screen and (max-width:240px){
+	
+	
+	
+}
