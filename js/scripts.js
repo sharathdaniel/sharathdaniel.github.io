@@ -92,6 +92,7 @@ $(document).ready(function(){
 		$('.chart').easyPieChart({
 			easing: 'easeOutBounce',
 			animate: 4000,
+			size: 100,
 			barColor: '#2196f3',
 			trackColor: '#d2d2d2',
 			lineWidth: 2,
