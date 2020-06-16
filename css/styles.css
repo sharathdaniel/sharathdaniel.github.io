@@ -447,6 +447,7 @@ body {
 }
 .item > div {
     margin-top: 10px;
+    font-weight: 700;
 }
 .chart {
     position: relative;
