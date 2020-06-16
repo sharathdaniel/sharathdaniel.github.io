@@ -93,8 +93,8 @@ $(document).ready(function(){
 			easing: 'easeOutBounce',
 			animate: 4000,
 			barColor: '#2196f3',
-			trackColor: '#dbdbdb',
-			lineWidth: 5,
+			trackColor: '#d2d2d2',
+			lineWidth: 2,
 			lineCap: 'square',
 			scaleColor: false,
 			onStep: function(from, to, percent) {
