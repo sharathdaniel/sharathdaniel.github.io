@@ -976,11 +976,12 @@ body {
     border-radius: 4px;
 }
 #footer {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    color: #333;
     position: relative;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #222;
+    color: #FFF;
+    text-align: center;
 }
 #thanks_bot {
     text-transform: uppercase;
