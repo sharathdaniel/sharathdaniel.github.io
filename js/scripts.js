@@ -153,4 +153,17 @@ $(document).ready(function(){
 	var n = d.getFullYear();
 	document.getElementById("copyyear").innerHTML = n;
 
+	//dark theme switch
+
+	const btn = document.querySelector(".theme-toggle");
+	const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+	btn.addEventListener("click", function () {
+		if (prefersDarkScheme.matches) {
+			document.body.classList.toggle("light-theme");
+		} else {
+			document.body.classList.toggle("dark-theme");
+		}
+	});
+
 });
