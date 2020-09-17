@@ -1058,6 +1058,22 @@ body {
 :-moz-ui-invalid:not(output) {
   box-shadow: none !important;
 }
+.theme-toggle {
+    float: left;
+    margin-left: 12px;
+    margin-top: 19px;
+    min-width: 28px;
+    padding: 2px 4px;
+    background-color: #1c7bc7;
+    border: 1px solid #5bb6ff;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #FFF;
+    cursor: pointer;
+}
+.theme-toggle:focus {
+    outline: none;
+}
 body .theme-toggle i::before {
     content: "\f186";
 }
