@@ -8,14 +8,6 @@
     position: absolute;
     width: 100%;
 }
-/*.port_parallax_inner {
-    margin-left: -33%;
-    position: absolute;
-    width: 100%;
-}*/
-.port_parallax{
-	font-size:32px;
-}
 
 }
 @media screen and (max-width:876px){
@@ -27,21 +19,6 @@
 	bottom:-23px!important;
 }
 	
-}
-
-
-@media screen and (max-width:768px){
-
-.what_ido_holder {
-    width: 24%;
-}
-#portfolio_list li{
-	width: 49%;
-}
-.port_parallax{
-	font-size:26px;
-}
-
 }
 
 @media screen and (max-width:685px){
@@ -79,16 +56,6 @@
 .active_nav a{
 	color:#263238!important;
 }
-.what_ido_holder {
-    width: 34%;
-}
-.what_ido_holder:nth-child(3),.what_ido_holder:nth-child(4){
-	margin-top:30px;
-}
-.form_col_left{
-	float:none;
-	width:100%;
-}
 #thanks_bot {
     font-size: 27px;
 }
@@ -120,31 +87,15 @@
 .about_parallax{
 	font-size:30px;
 }
-#portfolio_list li {
-    width: 80%;
-	float:none;
-	margin-left:auto;
-	margin-right:auto;
-}
 	
 }
 @media screen and (max-width:480px){
 	
 /*inherits from 568px*/
 
-.what_ido_holder {
-    width: 38%;
-}
 #thanks_bot {
     font-size: 22px;
 }
-.port_parallax {
-    font-size: 22px;
-}
-.port_parallax_inner i.fa-quote-left, .port_parallax_inner i.fa-quote-right {
-    font-size: 14px;
-}
-
 
 }
 @media screen and (max-width:384px){
@@ -177,12 +128,6 @@
 .profile_text p{
 	line-height:28px;
 }
-.what_ido_holder {
-    width: 51%;
-}
-.what_ido_holder:nth-child(1){
-	margin-bottom:30px;
-}
 #thanks_bot {
     font-size: 17px;
 }
@@ -211,10 +156,5 @@
 .flex-control-nav{
 	bottom:0px!important;
 }
-	
-}
-@media screen and (max-width:240px){
-	
-	
 	
 }
