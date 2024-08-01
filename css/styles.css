@@ -382,15 +382,6 @@ body {
   display: inline-block;
   text-align: center;
 }
-#profile .right-button .fa-facebook {
-  background-color: #4b66a0;
-}
-#profile .right-button .fa-google-plus {
-  background-color: #d24333;
-}
-#profile .right-button .fa-twitter {
-  background-color: #55acee;
-}
 #profile .right-button .fa-linkedin {
   background-color: #007bb6;
 }
@@ -402,44 +393,6 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
   line-height: 30px;
   text-align: justify;
-}
-#whatido {
-  text-align: center;
-}
-.what_ido_holder {
-  display: inline-block;
-  width: 20%;
-}
-.what_ido {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 2px solid #d2d2d2;
-  cursor: default;
-  transition: background-color 0.5s ease, border-color 0.5s ease;
-}
-.what_ido:hover {
-  background-color: #2196f3;
-  border-color: #1976d2;
-}
-.what_ido:hover i {
-  color: #fff;
-}
-.what_ido i {
-  font-size: 40px;
-  color: #6f6f6f;
-  width: 94px;
-  height: 94px;
-  line-height: 94px;
-}
-.what_ido_holder span {
-  display: block;
-  width: 100px;
-  margin: 20px auto 0 auto;
-  margin-top: 20px;
-  font-size: 20px;
-  text-transform: uppercase;
 }
 #skill_set .item {
   text-align: center;
@@ -735,92 +688,6 @@ body {
 }
 .music_color {
   color: #e8a525;
-}
-#portfolio {
-  width: 100%;
-  padding-top: 40px;
-}
-#portfolio_list {
-  list-style: none;
-}
-#portfolio_list li {
-  margin-bottom: 30px;
-  width: 33.3333%;
-  float: left;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.figure {
-  border: 1px solid #f2f2f2;
-  box-shadow: 0 1px 1px rgba(40, 40, 40, 0.1);
-  position: relative;
-  border-bottom: none;
-}
-.figure > img {
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-}
-.port_overlay {
-  opacity: 0;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-}
-.no_disp {
-  display: none;
-}
-.figure:hover > .port_overlay {
-  opacity: 1;
-}
-.link_a {
-  background-color: #2196f3;
-  display: inline-block;
-  font-size: 24px;
-  line-height: 1.57143;
-  padding: 2px 12px;
-  color: #ffffff;
-  left: 42%;
-  position: relative;
-  top: 41%;
-  border-radius: 4px;
-}
-.port_caption {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid #f2f2f2;
-  box-shadow: 0 1px 1px rgba(40, 40, 40, 0.1);
-  border-top: none;
-}
-.port_caption h3 {
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-}
-.port_caption h3 > span {
-  display: block;
-  font-size: 14px;
-  font-weight: normal;
-  margin-top: 10px;
-  text-transform: none;
-}
-.port_parallax {
-  width: 100%;
-  height: 500px;
-  margin-top: 60px;
-  position: relative;
-  background: url(../images/portfolio_bg.jpg) 50% 0 no-repeat fixed;
-  color: #fff;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 300;
-  text-transform: uppercase;
 }
 .parallax_overlay {
   background-color: rgba(0, 0, 0, 0.45);
