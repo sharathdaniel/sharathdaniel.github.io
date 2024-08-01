@@ -698,6 +698,9 @@ body {
 }
 
 .about_parallax {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   background: url(../images/about_bg.jpg) 27% 0 no-repeat fixed;
   width: 100%;
@@ -711,9 +714,7 @@ body {
   text-transform: uppercase;
 }
 .about_parallax_inner {
-  position: absolute;
-  left: 32.3%;
-  top: 40%;
+  position: relative;
 }
 .about_parallax_inner p:last-child {
   margin-top: 15px;
