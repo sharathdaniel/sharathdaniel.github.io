@@ -21,7 +21,6 @@ $(window).load(function(){
 			if (testMobile == null) {
 				$('.top-parallax-window').parallax("50%", 0.1);
 				$('.about_parallax').parallax("27%", 0.1);
-				$('.port_parallax').parallax("50%", 0.1);
 			}
 		}	
 		parallaxInit();	 
@@ -104,18 +103,6 @@ $(document).ready(function(){
 		});
 	}, { offset: '80%' });
 	
-	$(".what_ido i").rotate({ 
-   	bind: 
-     { 
-        mouseover : function() { 
-            $(this).rotate({animateTo:360})
-        },
-        mouseout : function() { 
-            $(this).rotate({animateTo:0})
-        }
-     } 
-   
-	});
 	
 	$("#skill_set").owlCarousel({
 		autoPlay: 3000,
