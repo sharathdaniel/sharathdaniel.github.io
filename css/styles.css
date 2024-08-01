@@ -696,20 +696,6 @@ body {
   position: absolute;
   width: 100%;
 }
-.port_parallax_inner {
-  position: absolute;
-  /*left:10%;*/
-  width: 100%;
-  top: 40%;
-}
-.port_parallax_inner p {
-  margin-bottom: 15px;
-}
-.port_parallax_inner .fa-quote-left,
-.port_parallax_inner .fa-quote-right {
-  font-size: 20px;
-  vertical-align: top;
-}
 #contact {
   padding-top: 40px;
   padding-bottom: 80px;
