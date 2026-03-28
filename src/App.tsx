@@ -91,7 +91,7 @@ const Hero = () => (
           </div>
           <div className="mt-8 relative aspect-video rounded-lg overflow-hidden border border-surface-container-highest/30">
             <img 
-              src="https://picsum.photos/seed/coding/800/450" 
+              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
               alt="Coding Illustration" 
               className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-700"
             />
