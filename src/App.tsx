@@ -116,9 +116,8 @@ const About = () => (
         <div className="relative aspect-4/5 bg-surface-container-highest rounded overflow-hidden max-w-sm mx-auto lg:mx-0">
           <img 
             src="/photo.png"
-            alt="Sharath Daniel" 
+            alt="Sharath Daniel"
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-            referrerPolicy="no-referrer"
           />
         </div>
       </motion.div>
