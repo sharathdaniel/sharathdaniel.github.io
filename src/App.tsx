@@ -11,7 +11,8 @@ import {
   Wind,
   Zap,
   Box,
-  GitBranch
+  GitBranch,
+  Package
 } from "lucide-react";
 
 const Navbar = () => (
@@ -93,7 +94,6 @@ const Hero = () => (
               src="https://picsum.photos/seed/coding/800/450" 
               alt="Coding Illustration" 
               className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-700"
-              referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-linear-to-t from-surface-container-low to-transparent"></div>
           </div>
@@ -192,7 +192,7 @@ const Toolkit = () => (
         title="Tooling"
         icon={Wrench}
         items={[
-          { name: "npm / Yarn", icon: Zap },
+          { name: "npm / Yarn", icon: Package },
           { name: "Git / GitHub", icon: GitBranch },
           { name: "Figma", icon: Palette },
           { name: "Stylelint / Prettier", icon: Code2 }
