@@ -51,7 +51,7 @@ const Hero = () => (
           transition={{ duration: 0.8, delay: 0.4 }}
           className="max-w-2xl text-xl md:text-2xl text-on-surface-variant font-sans leading-relaxed mb-12 font-light"
         >
-          Building clean, responsive interfaces with HTML, CSS, and modern JavaScript frameworks — backed by over a decade of front-end experience.
+          Building clean, responsive interfaces with HTML, CSS, and modern JavaScript frameworks, backed by over a decade of front-end experience.
         </motion.p>
         
         <motion.div 
@@ -134,8 +134,8 @@ const About = () => (
           I build interfaces that work for real users.
         </h2>
         <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed font-sans font-light">
-          <p>With over 13 years in front-end development, I focus on what matters most — writing solid HTML, precise CSS, and well-structured components in Angular and React. I care about responsive layouts, clean markup, and interfaces that feel right.</p>
-          <p>I also built <a href="https://github.com/sharathdaniel/style-base" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Stylebase</a> — a minimal, token-driven SCSS architecture for building scalable design systems. It reflects how I think about CSS: structured, reusable, and framework-agnostic.</p>
+          <p>With over 13 years in front-end development, I focus on what matters most: writing solid HTML, precise CSS, and well-structured components in Angular and React. I care about responsive layouts, clean markup, and interfaces that feel right.</p>
+          <p>I also built <a href="https://github.com/sharathdaniel/style-base" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Stylebase</a>, a minimal, token-driven SCSS architecture for building scalable design systems. It reflects how I think about CSS: structured, reusable, and framework-agnostic.</p>
         </div>
       </motion.div>
     </div>
@@ -233,7 +233,7 @@ const History = () => (
       
       <div className="space-y-24">
         <HistoryItem
-          date="2020 — PRESENT"
+          date="2020 - PRESENT"
           role="Senior Front-End Developer"
           company="Experion Technologies, India"
           description="Building and maintaining responsive UI components in Angular and React. Writing scalable CSS architectures, collaborating with designers in Figma, and shipping features that serve real users."
