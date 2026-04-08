@@ -135,7 +135,7 @@ const About = () => (
         </h2>
         <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed font-sans font-light">
           <p>With over 13 years in front-end development, I focus on what matters most: writing solid HTML, precise CSS, and well-structured components in Angular and React. I care about responsive layouts, clean markup, and interfaces that feel right.</p>
-          <p>I also built <a href="https://github.com/sharathdaniel/style-base" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Stylebase</a>, a minimal, token-driven SCSS architecture for building scalable design systems. It reflects how I think about CSS: structured, reusable, and framework-agnostic.</p>
+          <p>I also built <a href="https://sharathdaniel.com/style-base/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Stylebase</a>, a minimal, token-driven SCSS architecture for building scalable design systems. It reflects how I think about CSS: structured, reusable, and framework-agnostic.</p>
         </div>
       </motion.div>
     </div>
