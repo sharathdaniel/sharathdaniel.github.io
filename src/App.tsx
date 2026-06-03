@@ -82,7 +82,7 @@ const Hero = () => (
         <p className="max-w-[46ch] text-[clamp(15px,1.3vw,17px)] leading-[1.55] text-fg-muted">
           Building clean, responsive interfaces with <b className="font-medium text-on-surface">HTML</b>,{" "}
           <b className="font-medium text-on-surface">CSS</b>, and modern{" "}
-          <b className="font-medium text-on-surface">JavaScript frameworks</b> — backed by over a decade
+          <b className="font-medium text-on-surface">JavaScript frameworks</b> - backed by over a decade
           of front-end experience.
         </p>
 
@@ -102,7 +102,7 @@ const Hero = () => (
         </dl>
       </motion.div>
 
-      {/* right column — code card */}
+      {/* right column - code card */}
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
@@ -294,7 +294,7 @@ const Toolkit = () => (
 
 const JOBS = [
   {
-    date: "2020 — Present",
+    date: "2020 - Present",
     duration: "5+ years",
     role: "Senior Front-End Developer",
     company: "Experion Technologies · India",
@@ -303,7 +303,7 @@ const JOBS = [
     tags: ["Angular", "React", "SCSS", "Figma"]
   },
   {
-    date: "2013 — 2020",
+    date: "2013 - 2020",
     duration: "7 years",
     role: "UI Developer",
     company: "Verbat Technologies · India",
