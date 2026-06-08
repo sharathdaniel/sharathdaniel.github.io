@@ -369,7 +369,7 @@ const Footer = () => (
     <div className="mx-auto grid max-w-310 grid-cols-1 items-center gap-5 px-[clamp(20px,4vw,56px)] md:grid-cols-[1fr_auto_1fr]">
       <div className="font-semibold tracking-[-0.01em] text-on-surface">Sharath Daniel</div>
       <p className="text-[13px] text-fg-dim md:text-center">
-        © {new Date().getFullYear()} Sharath Daniel · Built with care.
+        © {new Date().getFullYear()} Sharath Daniel
       </p>
       <div className="flex gap-2.5 md:justify-end">
         <a
