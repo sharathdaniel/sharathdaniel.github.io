@@ -118,27 +118,26 @@ const Hero = () => (
           <span className="ml-auto font-mono text-[11px] text-fg-dim">main · clean</span>
         </div>
         <div className="py-4 font-mono text-[13px] leading-[1.75]">
-          <CodeLine n="01"><span className="text-fg-dim italic">{"// portfolio · v2"}</span></CodeLine>
-          <CodeLine n="02">
+          <CodeLine n="01">
             <span className="text-[#c084fc]">import</span> <span className="text-fg-muted">{"{"}</span> Nav<span className="text-fg-muted">,</span> Hero<span className="text-fg-muted">,</span> About <span className="text-fg-muted">{"}"}</span> <span className="text-[#c084fc]">from</span> <span className="text-accent-green">"./sections"</span><span className="text-fg-muted">;</span>
           </CodeLine>
-          <CodeLine n="03">&nbsp;</CodeLine>
-          <CodeLine n="04" highlight>
+          <CodeLine n="02">&nbsp;</CodeLine>
+          <CodeLine n="03" highlight>
             <span className="text-[#c084fc]">export default function</span> <span className="text-primary-bright">App</span><span className="text-fg-muted">()</span> <span className="text-fg-muted">{"{"}</span>
           </CodeLine>
-          <CodeLine n="05"><span className="pl-[1.5ch]"><span className="text-[#c084fc]">return</span> <span className="text-fg-muted">(</span></span></CodeLine>
-          <CodeLine n="06"><span className="pl-[3ch]"><span className="text-fg-muted">&lt;</span><span className="text-accent-red">div</span> <span className="text-accent-orange">className</span><span className="text-fg-muted">=</span><span className="text-accent-green">"bg-ink-950"</span><span className="text-fg-muted">&gt;</span></span></CodeLine>
-          <CodeLine n="07"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Nav</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
-          <CodeLine n="08"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Hero</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
-          <CodeLine n="09"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">About</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
-          <CodeLine n="10"><span className="pl-[3ch]"><span className="text-fg-muted">&lt;/</span><span className="text-accent-red">div</span><span className="text-fg-muted">&gt;</span></span></CodeLine>
-          <CodeLine n="11"><span className="pl-[1.5ch]"><span className="text-fg-muted">);</span></span></CodeLine>
-          <CodeLine n="12"><span className="text-fg-muted">{"}"}</span></CodeLine>
+          <CodeLine n="04"><span className="pl-[1.5ch]"><span className="text-[#c084fc]">return</span> <span className="text-fg-muted">(</span></span></CodeLine>
+          <CodeLine n="05"><span className="pl-[3ch]"><span className="text-fg-muted">&lt;</span><span className="text-accent-red">div</span> <span className="text-accent-orange">className</span><span className="text-fg-muted">=</span><span className="text-accent-green">"bg-ink-950"</span><span className="text-fg-muted">&gt;</span></span></CodeLine>
+          <CodeLine n="06"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Nav</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
+          <CodeLine n="07"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Hero</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
+          <CodeLine n="08"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">About</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
+          <CodeLine n="09"><span className="pl-[3ch]"><span className="text-fg-muted">&lt;/</span><span className="text-accent-red">div</span><span className="text-fg-muted">&gt;</span></span></CodeLine>
+          <CodeLine n="10"><span className="pl-[1.5ch]"><span className="text-fg-muted">);</span></span></CodeLine>
+          <CodeLine n="11"><span className="text-fg-muted">{"}"}</span></CodeLine>
         </div>
         <div className="flex items-center justify-between border-t border-line bg-surface-container-low/40 px-4 py-2.5 font-mono text-[11px] text-fg-dim">
           <span>UTF-8 · LF · TSX</span>
           <span className="inline-flex items-center gap-3.5">
-            <span><b className="font-medium text-fg-muted">Ln</b> 8</span>
+            <span><b className="font-medium text-fg-muted">Ln</b> 7</span>
             <span><b className="font-medium text-fg-muted">Col</b> 12</span>
             <span className="text-accent-green">● clean</span>
           </span>
