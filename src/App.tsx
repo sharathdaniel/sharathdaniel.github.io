@@ -63,9 +63,7 @@ const Hero = () => (
   >
     <div className="hero-backdrop pointer-events-none absolute inset-0" aria-hidden="true" />
 
-    <div className="relative max-w-310 mx-auto px-[clamp(20px,4vw,56px)] grid grid-cols-1 lg:grid-cols-[1.15fr_1fr] gap-[clamp(40px,6vw,80px)] items-center">
-      {/* left column */}
-      <motion.div
+    <div className="relative max-w-310 mx-auto px-[clamp(20px,4vw,56px)] grid grid-cols-1 lg:grid-cols-[1.15fr_1fr] gap-[clamp(40px,6vw,80px)] items-center">      <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.1 }}
@@ -101,17 +99,13 @@ const Hero = () => (
           </div>
         </dl>
       </motion.div>
-
-      {/* right column - code card */}
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, delay: 0.25 }}
         aria-hidden="true"
         className="relative overflow-hidden rounded-[14px] border border-line bg-linear-to-b from-surface-container to-surface-container-low shadow-[0_30px_60px_-30px_rgba(0,0,0,0.6)]"
-      >
-        {/* title bar */}
-        <div className="flex items-center gap-2 border-b border-line bg-surface-container-low/60 px-3.5 py-3">
+      >        <div className="flex items-center gap-2 border-b border-line bg-surface-container-low/60 px-3.5 py-3">
           <span className="flex gap-1.5">
             <span className="h-2.5 w-2.5 rounded-full bg-[#ff5f57]" />
             <span className="h-2.5 w-2.5 rounded-full bg-[#febc2e]" />
@@ -123,8 +117,6 @@ const Hero = () => (
           </span>
           <span className="ml-auto font-mono text-[11px] text-fg-dim">main · clean</span>
         </div>
-
-        {/* code body */}
         <div className="py-4 font-mono text-[13px] leading-[1.75]">
           <CodeLine n="01"><span className="text-fg-dim italic">{"// portfolio · v2"}</span></CodeLine>
           <CodeLine n="02">
@@ -137,14 +129,12 @@ const Hero = () => (
           <CodeLine n="05"><span className="pl-[1.5ch]"><span className="text-[#c084fc]">return</span> <span className="text-fg-muted">(</span></span></CodeLine>
           <CodeLine n="06"><span className="pl-[3ch]"><span className="text-fg-muted">&lt;</span><span className="text-accent-red">div</span> <span className="text-accent-orange">className</span><span className="text-fg-muted">=</span><span className="text-accent-green">"bg-ink-950"</span><span className="text-fg-muted">&gt;</span></span></CodeLine>
           <CodeLine n="07"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Nav</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
-          <CodeLine n="08"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Hero</span> <span className="text-fg-muted">/&gt;</span>   <span className="text-fg-dim italic">{"// ← you are here"}</span></span></CodeLine>
+          <CodeLine n="08"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">Hero</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
           <CodeLine n="09"><span className="pl-[3ch]">&nbsp;&nbsp;<span className="text-fg-muted">&lt;</span><span className="text-accent-red">About</span> <span className="text-fg-muted">/&gt;</span></span></CodeLine>
           <CodeLine n="10"><span className="pl-[3ch]"><span className="text-fg-muted">&lt;/</span><span className="text-accent-red">div</span><span className="text-fg-muted">&gt;</span></span></CodeLine>
           <CodeLine n="11"><span className="pl-[1.5ch]"><span className="text-fg-muted">);</span></span></CodeLine>
           <CodeLine n="12"><span className="text-fg-muted">{"}"}</span></CodeLine>
         </div>
-
-        {/* status bar */}
         <div className="flex items-center justify-between border-t border-line bg-surface-container-low/40 px-4 py-2.5 font-mono text-[11px] text-fg-dim">
           <span>UTF-8 · LF · TSX</span>
           <span className="inline-flex items-center gap-3.5">
@@ -167,9 +157,7 @@ const About = () => (
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <div className="relative isolate">
-          {/* corner brackets */}
-          <span className="absolute -left-1.5 -top-1.5 z-10 h-3.5 w-3.5 border-l border-t border-primary" />
+        <div className="relative isolate">          <span className="absolute -left-1.5 -top-1.5 z-10 h-3.5 w-3.5 border-l border-t border-primary" />
           <span className="absolute -bottom-1.5 -right-1.5 z-10 h-3.5 w-3.5 border-b border-r border-primary" />
           <div className="relative aspect-4/5 overflow-hidden rounded-lg border border-line bg-linear-to-b from-[#1a232e] to-surface-container">
             <img
@@ -321,18 +309,14 @@ const History = () => (
         Where I've worked.
       </h2>
 
-      <div className="relative">
-        {/* timeline rail */}
-        <div className="absolute bottom-0 top-1.5 left-2 w-px bg-line md:left-45" aria-hidden="true" />
+      <div className="relative">        <div className="absolute bottom-0 top-1.5 left-2 w-px bg-line md:left-45" aria-hidden="true" />
 
         {JOBS.map((job) => (
           <div
             key={job.company}
             className="relative grid grid-cols-1 gap-2 py-7 pb-9 pl-8 [&+&]:border-t [&+&]:border-line md:grid-cols-[180px_1fr] md:gap-8 md:pl-0"
           >
-            <div className="relative pt-1.5 font-mono text-xs tracking-[0.12em] text-fg-muted">
-              {/* node marker */}
-              <span className="absolute -left-7.25 top-2 h-2.75 w-2.75 rounded-full border-2 border-primary bg-surface-container-low shadow-[0_0_0_4px_var(--color-surface-container-low)] md:left-auto md:-right-8 md:top-2.5" />
+            <div className="relative pt-1.5 font-mono text-xs tracking-[0.12em] text-fg-muted">              <span className="absolute -left-7.25 top-2 h-2.75 w-2.75 rounded-full border-2 border-primary bg-surface-container-low shadow-[0_0_0_4px_var(--color-surface-container-low)] md:left-auto md:-right-8 md:top-2.5" />
               {job.date}
               <b className="mt-1 block font-sans text-[11px] font-medium uppercase tracking-normal text-on-surface">
                 {job.duration}

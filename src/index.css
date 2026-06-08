@@ -6,7 +6,6 @@
   --font-display: "Geist", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
-  /* ink palette — ported from Portfolio Revised.html */
   --color-surface: #0a0e13;                 /* page (bg-0) */
   --color-surface-container-low: #0d1218;   /* alt section (bg-1) */
   --color-surface-container: #11171f;       /* card (bg-2) */
@@ -47,7 +46,6 @@
   @apply bg-clip-text text-transparent bg-gradient-hero;
 }
 
-/* hero: subtle masked grid backdrop */
 .hero-backdrop {
   background-image:
     linear-gradient(to right, rgba(28, 37, 48, 0.45) 1px, transparent 1px),
