@@ -34,9 +34,7 @@ const Navbar = () => {
     >
       <div className="mx-auto flex h-16 max-w-310 items-center justify-between px-[clamp(20px,4vw,56px)]">
         <a href="#top" className="flex items-center gap-2.5 font-semibold tracking-[-0.01em]">
-          <span className="grid h-5.5 w-5.5 place-items-center rounded-[5px] border border-primary font-mono text-xs font-medium text-primary-bright">
-            S
-          </span>
+          <img src="/logo.svg" alt="" width={32} height={32} className="h-8 w-8 shrink-0" />
           <span>Sharath Daniel</span>
         </a>
 
@@ -350,7 +348,10 @@ const History = () => (
 const Footer = () => (
   <footer className="bg-surface pb-14 pt-12">
     <div className="mx-auto grid max-w-310 grid-cols-1 items-center gap-5 px-[clamp(20px,4vw,56px)] md:grid-cols-[1fr_auto_1fr]">
-      <div className="font-semibold tracking-[-0.01em] text-on-surface">Sharath Daniel</div>
+      <div className="flex items-center gap-2.5 font-semibold tracking-[-0.01em] text-on-surface">
+        <img src="/logo.svg" alt="" width={24} height={24} className="h-6 w-6 shrink-0" />
+        <span>Sharath Daniel</span>
+      </div>
       <p className="text-[13px] text-fg-dim md:text-center">
         © {new Date().getFullYear()} Sharath Daniel
       </p>
